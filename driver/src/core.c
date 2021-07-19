@@ -27,6 +27,8 @@ char *getDeviceDescription(int product_id)
 	        return "Blade 2020 15\" base";
 	    case BLADE_2020_ADV:
 	        return "Blade 2020 15\" advanced";
+        case BLADE_2021_ADV:
+            return "Blade 2021 15\" advanced";
 
         // Stealth's
 	    case BLADE_2017_STEALTH_MID:
@@ -45,6 +47,8 @@ char *getDeviceDescription(int product_id)
 		return "Book 2020";
 
     // Pro laptops laptops
+	    case BLADE_2021_PRO_FHD:
+		return "Blade 2021 Pro FHD";
 	    case BLADE_2020_PRO_FHD:
 	        return "Blade 2020 pro FHD";
 	    case BLADE_PRO_2019:
